@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\objects\main1.o"
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+--strict --scatter ".\Objects\shiyan5.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\shiyan5.map" -o .\Objects\shiyan5.1

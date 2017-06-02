@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+--strict --scatter ".\Objects\shiyan3.0 shu ma guan.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\shiyan3.0 shu ma guan.map" -o ".\Objects\shiyan3.0 shu ma guan.axf"
